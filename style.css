@@ -33,6 +33,11 @@ section {
   aspect-ratio: 1;
 }
 
+.avatar {
+  width: 80%;
+  aspect-ratio: 1;
+}
+
 footer {
   display: flex;
   flex-direction: row;
