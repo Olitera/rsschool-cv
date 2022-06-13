@@ -1,3 +1,47 @@
 body {
   background-color: rgb(235, 235, 201);
 }
+
+.menu {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.menu li {
+  list-style: none;
+}
+
+.menu a {
+  text-decoration: none;
+  color: black;
+}
+
+main {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  gap: 10px;
+  justify-content: center;
+  align-items: center;
+  width: 100wv;
+}
+
+section {
+  border: black 2px solid;
+  width: 30%;
+  aspect-ratio: 1;
+}
+
+.avatar {
+  width: 80%;
+  aspect-ratio: 1;
+}
+
+footer {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+
