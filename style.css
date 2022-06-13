@@ -1,3 +1,26 @@
 body {
   background-color: rgb(235, 235, 201);
 }
+
+.menu {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.menu li {
+  list-style: none;
+}
+
+.menu a{
+  text-decoration: none;
+  color: black;
+}
+
+footer {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+
