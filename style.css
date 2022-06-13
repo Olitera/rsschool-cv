@@ -12,9 +12,25 @@ body {
   list-style: none;
 }
 
-.menu a{
+.menu a {
   text-decoration: none;
   color: black;
+}
+
+main {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  gap: 10px;
+  justify-content: center;
+  align-items: center;
+  width: 100wv;
+}
+
+section {
+  border: black 2px solid;
+  width: 30%;
+  aspect-ratio: 1;
 }
 
 footer {
