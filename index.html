@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link rel="stylesheet" href="style.css">
+<link rel="icon" href="icons8-контакты-16.png">
+<title>CV</title>
+</head>
+<body>
+  <header>
+    <nav>
+      <ul class="menu">
+        <li>
+          <a href="#skills">skills</a>
+        </li>
+        <li>
+          <a href="#contacts">contacts</a>
+        </li>
+        <li>
+          <a href="#self">about me</a>
+        </li>
+        <li>
+          <a href="#code">code</a>
+        </li>
+        <li>
+          <a href="#works">works</a>
+        </li>
+        <li>
+          <a href="#education">education</a>
+        </li>
+        <li>
+          <a href="#english">english</a>
+        </li>
+      </ul>
+    </nav>
+  </header>
+  <main>
+    <section>
+      <h1>Volha<br>Melayok</h1>
+      <p>"Study hard and all things can be accomplished. Give up, and you will amount to nothing."<br>Yamaoka Tesshu</p>
+    </section>
+    <section id="skills">
+      <h2>Skills</h2>
+      <ul>
+        <li>HTML</li>
+        <li>CSS</li>
+        <li>JavaScript</li>
+        <li>Git</li>
+      </ul>
+    </section>
+    <section id="contacts">
+      <h2>Contacts</h2>
+      <ul>
+        <li>Olitera#7023</li>
+        <li><a href="mailto:neiwra@gmail.com">neiwra@gmail.com</a></li>
+      </ul>
+    </section>
+    <section id="self">
+      <h2>Some words about me</h2>
+      <p>This is a new possibilities for me. I'm learning fast and having knowledge from an alternative field.</p>
+    </section>
+    <section>
+      <h2 class="foto">Foto</h2>
+      <img class="avatar" src="IMG_8058.JPG" alt="">
+    </section>
+    <section id="code" class="code_exam">
+      <h2>Сode example</h2>
+      <div>
+        <pre style='color:#000000;background:#ffffff;'><span style='color:#7f0055; font-weight:bold; '>function</span> getLengthOfMissingArray(arrayOfArrays) {
+          <span style='color:#7f0055; font-weight:bold; '>if</span> (!arrayOfArrays) {
+            <span style='color:#7f0055; font-weight:bold; '>return</span> 0;
+          }
+          <span style='color:#7f0055; font-weight:bold; '>if</span> (arrayOfArrays.includes(<span style='color:#7f0055; font-weight:bold; '>null</span>)) {
+            <span style='color:#7f0055; font-weight:bold; '>return</span> 0;
+          }
+          <span style='color:#7f0055; font-weight:bold; '>if</span> (arrayOfArrays.<span style='color:#7f0055; font-weight:bold; '>length</span> === 0) {
+            <span style='color:#7f0055; font-weight:bold; '>return</span> 0;
+          }
+          arrayOfArrays.<span style='color:#7f0055; font-weight:bold; '>sort</span>(<span style='color:#7f0055; font-weight:bold; '>function</span>(a,b) {
+            <span style='color:#7f0055; font-weight:bold; '>return</span> a.<span style='color:#7f0055; font-weight:bold; '>length</span>-b.<span style='color:#7f0055; font-weight:bold; '>length</span>
+          });
+          <span style='color:#7f0055; font-weight:bold; '>if</span> (arrayOfArrays[0].<span style='color:#7f0055; font-weight:bold; '>length</span> === 0) {
+            <span style='color:#7f0055; font-weight:bold; '>return</span> 0;
+          }
+          <span style='color:#7f0055; font-weight:bold; '>for</span> (<span style='color:#7f0055; font-weight:bold; '>let</span> i=1; i&lt;arrayOfArrays.<span style='color:#7f0055; font-weight:bold; '>length</span>; i++) {
+            <span style='color:#7f0055; font-weight:bold; '>if</span> (arrayOfArrays[i].<span style='color:#7f0055; font-weight:bold; '>length</span> !== (arrayOfArrays[i-1].<span style='color:#7f0055; font-weight:bold; '>length</span> + 1)){
+              <span style='color:#7f0055; font-weight:bold; '>return</span> arrayOfArrays[i].<span style='color:#7f0055; font-weight:bold; '>length</span>-1;
+              }
+          }
+          <span style='color:#7f0055; font-weight:bold; '>return</span> 0;
+        }
+        </pre>
+      </div>
+    </section>
+    <section id="works">
+      <h2>My projects</h2>
+      <div>
+        <a class="exam_work" target="_blank" href="https://rolling-scopes-school.github.io/olitera-JSFEPRESCHOOL/js30/">
+          <img class="exam" src="vertical.png" alt="">Vertical slider
+        </a>
+      </div>
+      <div>
+        <a class="exam_work" target="_blank" href="https://rolling-scopes-school.github.io/olitera-JSFEPRESCHOOL/museum-dom/">
+          <img class="exam" src="https://user-images.githubusercontent.com/86983680/136833418-a4c7e212-37d7-4573-88e9-69ac38aba746.png" alt="">Museum
+        </a>
+      </div>
+      <div>
+        <a class="exam_work" target="_blank" href="https://rolling-scopes-school.github.io/olitera-JSFEPRESCHOOL/custom-video-player/">
+          <img class="exam" src="custom.png" alt="">Video player
+        </a>
+      </div>
+    </section>
+    <section id="education">
+      <h2>Education</h2>
+      <p>July-December 2021 JavaScript/Front-end. Rolling Scopes School</p>
+      <p>2007-2013 Belarusian State Medical University</p>
+    </section>
+    <section id="english">
+      <h2>English</h2>
+      <p>Graduated from English Streamline Pre-Intermediate courses</p>
+    </section>
+  </main>
+  <footer>
+    <a href="https://github.com/Olitera">
+      <img src="GitHub-Mark-Light-120px-plus.png" height = "50" alt="">
+    </a>
+    <p>2022</p>
+    <a href="https://rs.school/js/">
+      <img src="https://rs.school/images/rs_school_js.svg" width = "100" alt="">
+    </a>
+  </footer>
+  <script src="script.js"></script>
+</body>
+</html>

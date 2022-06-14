@@ -1,0 +1,96 @@
+body {
+  background-color: rgb(235, 235, 201);
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+.menu {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.menu li {
+  list-style: none;
+}
+
+.menu a {
+  text-decoration: none;
+  color: black;
+}
+
+main {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  gap: 10px;
+  justify-content: center;
+  align-items: center;
+  width: 100wv;
+}
+
+section {
+  border: black 2px solid;
+  width: 30%;
+  aspect-ratio: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 10px;
+  text-align: center;
+}
+
+.code_exam {
+  overflow: scroll;
+}
+
+p {
+  font-size: 25px;
+}
+
+li {
+  font-size: 25px;
+}
+
+a {
+  font-size: 25px;
+}
+
+h1 {
+  font-size: 40px;
+  text-decoration: underline;
+}
+
+h2 {
+  font-size: 30px;
+  text-decoration:dotted;
+}
+
+.exam_work {
+  text-decoration: none;
+  color: black;
+}
+
+.exam {
+  height: 50px;
+  width: 50px;
+}
+
+.avatar {
+  width: 80%;
+  aspect-ratio: 1;
+}
+
+.foto {
+  display: none;
+}
+
+footer {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+
