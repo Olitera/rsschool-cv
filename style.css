@@ -2,6 +2,10 @@ body {
   background-color: rgb(235, 235, 201);
 }
 
+html {
+  scroll-behavior: smooth;
+}
+
 .menu {
   display: flex;
   flex-direction: row;
@@ -38,6 +42,10 @@ section {
   text-align: center;
 }
 
+.code_exam {
+  overflow: scroll;
+}
+
 p {
   font-size: 25px;
 }
@@ -63,6 +71,11 @@ h2 {
 .exam_work {
   text-decoration: none;
   color: black;
+}
+
+.exam {
+  height: 50px;
+  width: 50px;
 }
 
 .avatar {
