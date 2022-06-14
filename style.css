@@ -31,11 +31,47 @@ section {
   border: black 2px solid;
   width: 30%;
   aspect-ratio: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 10px;
+  text-align: center;
+}
+
+p {
+  font-size: 25px;
+}
+
+li {
+  font-size: 25px;
+}
+
+a {
+  font-size: 25px;
+}
+
+h1 {
+  font-size: 40px;
+  text-decoration: underline;
+}
+
+h2 {
+  font-size: 30px;
+  text-decoration:dotted;
+}
+
+.exam_work {
+  text-decoration: none;
+  color: black;
 }
 
 .avatar {
   width: 80%;
   aspect-ratio: 1;
+}
+
+.foto {
+  display: none;
 }
 
 footer {
